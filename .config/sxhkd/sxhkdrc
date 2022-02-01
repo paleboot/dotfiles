@@ -3,7 +3,7 @@
 #
 
 # terminal emulator
-super + t 
+super + Return
 	kitty	
 
 # program launcher
@@ -81,7 +81,7 @@ super + {o,i}
 	bspc wm -h on
 
 # send window to the given desktop
-super + shift + {1-9,0}
+ctrl + shift + alt + {1-9,0}
 	bspc node -d '^{1-9,10}'
 
 # focus to the given desktop
