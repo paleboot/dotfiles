@@ -1,0 +1,10 @@
+[general]
+base_currency = USD 
+display = both
+
+[bitcoin]
+icon = 
+
+[ethereum]
+icon = 
+
